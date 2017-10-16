@@ -1,0 +1,149 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-',
+1 verbose cli   'g',
+1 verbose cli   '@angular/cli' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData -
+8 silly fetchPackageMetaData g
+9 silly fetchPackageMetaData @angular/cli
+10 silly fetchOtherPackageData -
+11 silly cache add args [ '-', null ]
+12 verbose cache add spec -
+13 silly fetchNamedPackageData g
+14 silly mapToRegistry name g
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry data Result {
+17 silly mapToRegistry   raw: 'g',
+17 silly mapToRegistry   scope: null,
+17 silly mapToRegistry   escapedName: 'g',
+17 silly mapToRegistry   name: 'g',
+17 silly mapToRegistry   rawSpec: '',
+17 silly mapToRegistry   spec: 'latest',
+17 silly mapToRegistry   type: 'tag' }
+18 silly mapToRegistry uri https://registry.npmjs.org/g
+19 silly fetchNamedPackageData @angular/cli
+20 silly mapToRegistry name @angular/cli
+21 silly mapToRegistry scope (from package name) @angular
+22 verbose mapToRegistry no registry URL found in name for scope @angular
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: '@angular/cli',
+25 silly mapToRegistry   scope: '@angular',
+25 silly mapToRegistry   escapedName: '@angular%2fcli',
+25 silly mapToRegistry   name: '@angular/cli',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcli
+27 silly cache add parsed spec Result {
+27 silly cache add   raw: '-',
+27 silly cache add   scope: null,
+27 silly cache add   escapedName: null,
+27 silly cache add   name: null,
+27 silly cache add   rawSpec: '-',
+27 silly cache add   spec: 'D:\\Documents\\Dropbox\\Personal\\Projects\\Learning\\Angular4\\UdemyClassOne\\-',
+27 silly cache add   type: 'local' }
+28 error addLocal Could not install D:\Documents\Dropbox\Personal\Projects\Learning\Angular4\UdemyClassOne\-
+29 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'D:\Documents\Dropbox\Personal\Projects\Learning\Angular4\UdemyClassOne\-'
+29 silly fetchPackageMetaData     at Error (native)
+29 silly fetchPackageMetaData  error for - { Error: ENOENT: no such file or directory, open 'D:\Documents\Dropbox\Personal\Projects\Learning\Angular4\UdemyClassOne\-'
+29 silly fetchPackageMetaData     at Error (native)
+29 silly fetchPackageMetaData   errno: -4058,
+29 silly fetchPackageMetaData   code: 'ENOENT',
+29 silly fetchPackageMetaData   syscall: 'open',
+29 silly fetchPackageMetaData   path: 'D:\\Documents\\Dropbox\\Personal\\Projects\\Learning\\Angular4\\UdemyClassOne\\-' }
+30 verbose request uri https://registry.npmjs.org/g
+31 verbose request no auth needed
+32 info attempt registry request try #1 at 12:47:31 AM
+33 verbose request id 35f48b94df22b23b
+34 verbose etag W/"57369939-205b"
+35 verbose lastModified Sat, 14 May 2016 03:19:21 GMT
+36 http request GET https://registry.npmjs.org/g
+37 verbose request uri https://registry.npmjs.org/@angular%2fcli
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 12:47:31 AM
+40 verbose etag "59a0910b-29fc5"
+41 http request GET https://registry.npmjs.org/@angular%2fcli
+42 http 304 https://registry.npmjs.org/g
+43 verbose headers { date: 'Mon, 28 Aug 2017 07:47:31 GMT',
+43 verbose headers   via: '1.1 varnish',
+43 verbose headers   'cache-control': 'max-age=300',
+43 verbose headers   etag: 'W/"57369939-205b"',
+43 verbose headers   age: '15',
+43 verbose headers   connection: 'keep-alive',
+43 verbose headers   'x-served-by': 'cache-lax8630-LAX',
+43 verbose headers   'x-cache': 'HIT',
+43 verbose headers   'x-cache-hits': '1',
+43 verbose headers   'x-timer': 'S1503906452.745230,VS0,VE0',
+43 verbose headers   vary: 'Accept-Encoding, Accept' }
+44 silly get cb [ 304,
+44 silly get   { date: 'Mon, 28 Aug 2017 07:47:31 GMT',
+44 silly get     via: '1.1 varnish',
+44 silly get     'cache-control': 'max-age=300',
+44 silly get     etag: 'W/"57369939-205b"',
+44 silly get     age: '15',
+44 silly get     connection: 'keep-alive',
+44 silly get     'x-served-by': 'cache-lax8630-LAX',
+44 silly get     'x-cache': 'HIT',
+44 silly get     'x-cache-hits': '1',
+44 silly get     'x-timer': 'S1503906452.745230,VS0,VE0',
+44 silly get     vary: 'Accept-Encoding, Accept' } ]
+45 verbose etag https://registry.npmjs.org/g from cache
+46 verbose get saving g to C:\Users\M\AppData\Roaming\npm-cache\registry.npmjs.org\g\.cache.json
+47 verbose correctMkdir C:\Users\M\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+48 http 304 https://registry.npmjs.org/@angular%2fcli
+49 verbose headers { date: 'Mon, 28 Aug 2017 07:47:31 GMT',
+49 verbose headers   via: '1.1 varnish',
+49 verbose headers   'cache-control': 'max-age=0',
+49 verbose headers   etag: '"59a0910b-29fc5"',
+49 verbose headers   age: '0',
+49 verbose headers   connection: 'keep-alive',
+49 verbose headers   'x-served-by': 'cache-lax8625-LAX',
+49 verbose headers   'x-cache': 'MISS',
+49 verbose headers   'x-cache-hits': '0',
+49 verbose headers   'x-timer': 'S1503906452.750046,VS0,VE230',
+49 verbose headers   vary: 'Accept-Encoding' }
+50 silly get cb [ 304,
+50 silly get   { date: 'Mon, 28 Aug 2017 07:47:31 GMT',
+50 silly get     via: '1.1 varnish',
+50 silly get     'cache-control': 'max-age=0',
+50 silly get     etag: '"59a0910b-29fc5"',
+50 silly get     age: '0',
+50 silly get     connection: 'keep-alive',
+50 silly get     'x-served-by': 'cache-lax8625-LAX',
+50 silly get     'x-cache': 'MISS',
+50 silly get     'x-cache-hits': '0',
+50 silly get     'x-timer': 'S1503906452.750046,VS0,VE230',
+50 silly get     vary: 'Accept-Encoding' } ]
+51 verbose etag https://registry.npmjs.org/@angular%2fcli from cache
+52 verbose get saving @angular/cli to C:\Users\M\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcli\.cache.json
+53 verbose correctMkdir C:\Users\M\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+54 silly rollbackFailedOptional Starting
+55 silly rollbackFailedOptional Finishing
+56 silly runTopLevelLifecycles Finishing
+57 silly install printInstalled
+58 verbose stack Error: ENOENT: no such file or directory, open 'D:\Documents\Dropbox\Personal\Projects\Learning\Angular4\UdemyClassOne\-'
+58 verbose stack     at Error (native)
+59 verbose cwd D:\Documents\Dropbox\Personal\Projects\Learning\Angular4\UdemyClassOne
+60 error Windows_NT 10.0.14393
+61 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-" "g" "@angular/cli"
+62 error node v6.11.2
+63 error npm  v3.10.10
+64 error path D:\Documents\Dropbox\Personal\Projects\Learning\Angular4\UdemyClassOne\-
+65 error code ENOENT
+66 error errno -4058
+67 error syscall open
+68 error enoent ENOENT: no such file or directory, open 'D:\Documents\Dropbox\Personal\Projects\Learning\Angular4\UdemyClassOne\-'
+69 error enoent ENOENT: no such file or directory, open 'D:\Documents\Dropbox\Personal\Projects\Learning\Angular4\UdemyClassOne\-'
+69 error enoent This is most likely not a problem with npm itself
+69 error enoent and is related to npm not being able to find a file.
+70 verbose exit [ -4058, true ]
