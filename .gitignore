@@ -9,6 +9,7 @@ UdemyCourse26/cmp-databinding-mma/.idea/
 UdemyCourse26/cmp-databinding-start/.idea/
 UdemyCourse26/my-first-app/.idea/
 UdemyCourse26/project-one/.idea/
+UdemyCourse26/directives-start/.idea/
 
 
 
@@ -24,6 +25,8 @@ UdemyCourse26/cmp-databinding-mma/node_modules/
 UdemyCourse26/cmp-databinding-start/node_modules/
 UdemyCourse26/my-first-app/node_modules/
 UdemyCourse26/project-one/node_modules/
+UdemyCourse26/directives-start/node_modules/
+UdemyCourse26/directives-start/.gitignore
 
 
 
