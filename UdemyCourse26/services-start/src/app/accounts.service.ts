@@ -18,8 +18,7 @@ export class AccountsService {
     }
   ];
 
-  statusUpdated = new EventEmitter<string>();
-
+  // statusUpdated = new EventEmitter<string>();
 
   constructor(private loggingService: LoggingService) {}
 

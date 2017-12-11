@@ -20,6 +20,6 @@ export class AccountComponent {
     this.accountService.updateStatus(this.id, status);
 
     // this.loggingService.logSatusChange(status);
-    this.accountService.statusUpdated.emit(status);
+    // this.accountService.statusUpdated.emit(status);
   }
 }
